@@ -1,7 +1,9 @@
 public class Solution80_removeDuplicates {
+
     public static void main(String[] args) {
         System.out.println(new Solution80_removeDuplicates().removeDuplicates(new int[]{1,1,1,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5,6,6}));
     }
+
     public int removeDuplicates(int[] nums) {
         int n = nums.length;
         int left = 1;
