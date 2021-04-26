@@ -38,8 +38,4 @@ public class Solution24 {
         return next;
     }
 }
-class ListNode {
-         int val;
-         ListNode next;
-         ListNode(int x) { val = x; }
-}
+

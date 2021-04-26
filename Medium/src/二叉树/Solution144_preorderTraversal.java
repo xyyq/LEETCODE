@@ -29,9 +29,7 @@ public class Solution144_preorderTraversal {
         if (root == null) {
             return res;
         }
-
         s.push(root);
-
         while (!s.empty()){
             TreeNode tmp=s.pop();
             res.add(tmp.val);
