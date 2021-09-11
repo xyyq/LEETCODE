@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 public class SolutionMeituan01 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         String s1= br.readLine();
         String s2= br.readLine();
         int res  = 0;
